@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Template</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+        <header>
+            <div class="profile-pic">
+                <img src="{{user.photo}}" alt="Profile Picture" width="70" >
+            </div>
+            <div class="name-title">
+                <h1>Mulamuleli Patience Magwedze</h1>
+                
+            </div>
+        </header>
+
+       <section class="contact">
+        <h3><i class="fas fa-address-card"></i> Contact Information</h3>
+        <p>{{user.fullName}}</p>
+        <p>{{user.phone}}</p>
+        <p>{{user.email}}</p>
+        <p>{{user.linkedin}}</p>
+        <p>{{user.github}}</p>
+
+       </section>
+       
+
+        <section class="summary">
+            <h3><i class="fas fa-user"></i> Summary</h3>
+            <p>{{summary.description}}</p>
+        </section>
+
+        <section class="experience">
+            <h3><i class="fas fa-briefcase"></i> Charity-Work</h3>
+            <div class="job">
+                <p>{{experience.Charity-Work}}</p>
+
+            </div>
+        </section>
+
+        <section class="education">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            <h4>Qualification</h4>
+            <p>{{education.institutionName}}</p>
+            <p><img src="{{education.photo}}"></p>
+            <p>{{education.description}}</p>
+        </section>
+
+        <section class="skills">
+            <h3><i class="fas fa-code"></i> Skills</h3>
+            <ul>
+                {{#each skills}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            <p></p>
+
+
+                <section class="references">
+                    <h3><i class="fas fa-user-friends"></i> References</h3>
+                    
+                    <ul>
+                        {{#each references}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+
+            
+        </section>
+    </div>
 </body>
+
 </html>
+
+
+
+
+

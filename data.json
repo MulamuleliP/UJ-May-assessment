@@ -1,38 +1,32 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "user": {
+        "fullName": "Mulamuleli Patience Magwedze",
+        "photo": "PICTURE/Grad.jpg",
+        "phone": "072 106 9828",
+        "email": "mulamulelipatience@gmail.com",
+        "linkedin": "linkedin.com/in/mulamuleli-p-937394272",
+        "github": "https://github.com/MulamuleliP"
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+    "education": {
+        "institutionName": "Sefako Makgatho Health Sciences University",
+        "photo": "PICTURE/images.png",
+        "description": "Bachelor of Sciences in Physcal Sciences"
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    "summary": {
+        "description": "Mulamuleli is a Bachelor of Sciences in Physical Sciences graduate with a keen interest in developing her mathematical reasoning, deductive reasoning, information-ordering, and Decision-Making skills. As a highly energetic and team-orientated individual, I am eager to apply skills in a professional environment and contribute to the success of the team"
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
+    "experience": {
+        "Charity-Work": "I worked under the Mr Majo Foundation, a non-profit organization, we volunteered to prepare food and tea for the elderly in 2018 while they camped out in front of the bank every day to be able to withdraw cash during the VBS bank collapse tragedy. After that, we went on to gather used clothing that is in good condition and gave it to others in need."
+    },
+    "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Cloud Computing (AWS, Azure)"
+    ],
+
+    "references": [ 
+     "Mr Ramo Moloto, Financial Aid Officer, Sefako Makgatho Health Sciences University Cell: (079) 906 3663",
+     "Refilwe Mashilwane, Principal Administrator: Dean’s office, Sefako Makgatho Health Sciences University Cell: 012 521 3362/083 519 7676"]
+
         }
-    ]
-}
