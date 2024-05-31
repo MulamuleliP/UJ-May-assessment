@@ -1,7 +1,7 @@
 {
     "user": {
         "fullName": "Mulamuleli Patience Magwedze",
-        "photo": "PICTURE/Grad.jpg",
+        "photo": "./Grad.jpg",
         "phone": "072 106 9828",
         "email": "mulamulelipatience@gmail.com",
         "linkedin": "linkedin.com/in/mulamuleli-p-937394272",
@@ -9,7 +9,7 @@
     },
     "education": {
         "institutionName": "Sefako Makgatho Health Sciences University",
-        "photo": "PICTURE/images.png",
+        "photo": "./images.png",
         "description": "Bachelor of Sciences in Physcal Sciences"
     },
     "summary": {
